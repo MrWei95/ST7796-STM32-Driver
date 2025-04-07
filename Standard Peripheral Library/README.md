@@ -31,7 +31,7 @@
 #define		Pixel_W				480
 #define		Pixel_H				320
 ```
-```Pixel_W```是屏幕长边，```Pixel_W```是屏幕短边，屏幕方向由宏定义```ST7796_SCREEN_POSITION```控制，实现代码：
+```Pixel_W```是屏幕长边，```Pixel_H```是屏幕短边，屏幕方向由宏定义```ST7796_SCREEN_POSITION```控制，实现代码：
 ```C
 #if ST7796_SCREEN_POSITION == 0 || ST7796_SCREEN_POSITION == 1
 #define		LCD_W				Pixel_H
